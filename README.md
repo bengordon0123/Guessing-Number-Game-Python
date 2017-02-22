@@ -17,7 +17,7 @@ while total < 10:
 
     total = total + 1
 
-    elif guess < my_number:
+    if guess < my_number:
         print("The number I’m thinking of is higher.")
 
     elif guess > my_number:
